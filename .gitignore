@@ -1,4 +1,18 @@
-dist
+src
+.appveyor.yml
+.babelrc
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitignore
+.gitkeep
+licenses.txt
+package-lock.json
+package.json
+README.md
+README-task.md
+webpack.config.js
+
 doc
 .idea
 
