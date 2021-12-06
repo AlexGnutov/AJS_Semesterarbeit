@@ -113,7 +113,8 @@ export default class GameController {
       this.gameState.recoverFromLoaded(state);
       this.redrawAll();
       GamePlay.showMessage('Sucessfully loaded data');
-    } else {
+    }
+    if (state === null) {
       GamePlay.showMessage('No saved data to load...');
     }
   }
